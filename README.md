@@ -1,12 +1,46 @@
-# React + Vite
+# E-Commerce - Product Comparison App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application for comparing smartphones with an intuitive interface and powerful comparison features.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Product Grid**: Browse 8 smartphone models with detailed specs
+- **Side-by-Side Comparison**: Compare up to 3 products with highlighted differences
+- **Dark/Light Mode**: Theme toggle with persistent styling
+- **Responsive Design**: Works on desktop, tablet, and mobile
+- **Interactive Selection**: Visual feedback for selected products
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18+ with Hooks
+- Bootstrap 5 for styling
+- Responsive grid system
+
+## 🚀 Quick Start
+
+1. **Clone & Install**
+   ```bash
+   git clone https://github.com/vishalchandola/ecommerce_website
+   cd ecommerce_website
+   npm install
+   ```
+
+2. **Start Development Server**
+   ```bash
+   npm start
+   ```
+
+3. **Open Browser**
+   Navigate to `http://localhost:5173`
+
+
+## 🎯 Usage
+
+1. **Browse Products**: View smartphones in responsive grid
+2. **Compare**: Click "Add to Compare" (max 3 products)
+3. **View Comparison**: Click "Show Comparison" for side-by-side view
+4. **Toggle Theme**: Switch between light/dark modes
+
+---
+
+**Built with React and Bootstrap**
